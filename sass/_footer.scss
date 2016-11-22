@@ -1,8 +1,13 @@
+footer {
+  font-size: 1.0em;
+}
+
 .octonumber {
 
   margin: 14px 0 0 0;
   float: left;
   display: inline;
+  color: #dddddd;
 }
 
 .publishers {
@@ -20,4 +25,7 @@
 
 cite {
   float: right;
+  color: #aaaaaa;
+  font-style: normal;
+  font-weight: bold;
 }

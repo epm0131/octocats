@@ -1,11 +1,14 @@
 header {
-  border: 2px solid #000000;
+  margin-top: 6px;
+  height: 50px;
   background-color: #dddddd; }
   header h1 {
+    margin-top: 8px;
     display: inline-block; }
   header nav {
     float: right; }
     header nav .information {
+      margin-top: 10px;
       list-style: none; }
       header nav .information li {
         float: right; }
@@ -16,19 +19,35 @@ header {
 li {
   list-style: none; }
 
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold; }
+
+.octodex {
+  width: 75%;
+  margin: 0 auto; }
+
 .octocat {
+  margin: 20px 0 0 10px;
   display: inline-block;
-  width: 30%;
-  box-sizing: border-box; }
+  width: 28%;
+  box-sizing: border-box;
+  border-bottom: 2px solid  #dddddd; }
   .octocat .img-atag .pictures {
     border: 2px solid #dddddd;
     box-sizing: border-box;
     width: 100%; }
 
+footer {
+  font-size: 1.0em; }
+
 .octonumber {
   margin: 14px 0 0 0;
   float: left;
-  display: inline; }
+  display: inline;
+  color: #dddddd; }
 
 .publishers {
   height: 30px; }
@@ -41,6 +60,16 @@ li {
   display: inline; }
 
 cite {
-  float: right; }
+  float: right;
+  color: #aaaaaa;
+  font-style: normal;
+  font-weight: bold; }
+
+@media only screen and (max-width: 600px) {
+  .octocat {
+    width: 100%; } }
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .octocat {
+    width: 46%; } }
 
 /*# sourceMappingURL=style.css.map */

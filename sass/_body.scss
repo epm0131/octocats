@@ -2,10 +2,25 @@ li {
   list-style: none;
 }
 
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.octodex {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .octocat {
+
+  margin: 20px 0 0 10px;
   display: inline-block;
-  width: 30%;
+  width: 28%;
   box-sizing: border-box;
+  border-bottom: 2px solid  #dddddd;
   .img-atag {
     .pictures {
       border: 2px solid #dddddd;
