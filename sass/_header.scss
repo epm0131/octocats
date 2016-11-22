@@ -1,0 +1,20 @@
+header {
+  border: 2px solid #000000;
+  background-color: #dddddd;
+  h1 {
+    display: inline-block;
+  }
+  nav {
+    float: right;
+    .information {
+      list-style: none;
+      li {
+      float: right;
+        a {
+          display: block;
+          padding: 8px;
+        }
+      }
+    }
+  }
+}

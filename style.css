@@ -1,0 +1,46 @@
+header {
+  border: 2px solid #000000;
+  background-color: #dddddd; }
+  header h1 {
+    display: inline-block; }
+  header nav {
+    float: right; }
+    header nav .information {
+      list-style: none; }
+      header nav .information li {
+        float: right; }
+        header nav .information li a {
+          display: block;
+          padding: 8px; }
+
+li {
+  list-style: none; }
+
+.octocat {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box; }
+  .octocat .img-atag .pictures {
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    width: 100%; }
+
+.octonumber {
+  margin: 14px 0 0 0;
+  float: left;
+  display: inline; }
+
+.publishers {
+  height: 30px; }
+
+.authors {
+  padding: 0;
+  display: inline; }
+
+.authors li {
+  display: inline; }
+
+cite {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */

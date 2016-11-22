@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+}
+
+.octocat {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  .img-atag {
+    .pictures {
+      border: 2px solid #dddddd;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+}
