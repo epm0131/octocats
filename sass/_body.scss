@@ -2,6 +2,9 @@ li {
   list-style: none;
 }
 
+// I did this because i wanted all of the lis to not have a list style and for
+// this example it works.  Would you like to nest it regardless?
+
 a {
   font-style: normal;
   text-decoration: none;
@@ -10,22 +13,19 @@ a {
 }
 
 .octodex {
-  width: 75%;
+  width: $octodexWidth;
   margin: 0 auto;
 }
 
 .octocat {
-
   margin: 20px 0 0 10px;
   display: inline-block;
-  width: 28%;
+  width: $octocatWidth;
   box-sizing: border-box;
-  border-bottom: 2px solid  #dddddd;
-  .img-atag {
+  border-bottom: $borderThickness solid $shadeOfGray;
     .pictures {
-      border: 2px solid #dddddd;
+      border: $borderThickness solid $shadeOfGray;
       box-sizing: border-box;
-      width: 100%;
+      width: $picturesWidth;
     }
-  }
 }
