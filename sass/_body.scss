@@ -14,11 +14,11 @@ a {
 
 .octodex {
   width: $octodexWidth;
-  margin: 0 auto;
+  margin: $octodexMargin auto;
 }
 
 .octocat {
-  margin: 20px 0 0 10px;
+  margin: $octocatMarginTop $octocatMarginRight $octocatMarginBottom $octocatMarginLeft;
   display: inline-block;
   width: $octocatWidth;
   box-sizing: border-box;

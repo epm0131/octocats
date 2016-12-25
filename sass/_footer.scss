@@ -1,21 +1,21 @@
 footer {
-  font-size: 1.0em;
+  font-size: $footerFontSize;
 }
 
 .octonumber {
 
-  margin: 14px 0 0 0;
+  margin: $octonumberMarginTop $octonumberMarginRight $octonumberMarginBottom $octonumberMarginLeft;
   float: left;
   display: inline;
   color: $shadeOfGray;
 }
 
 .publishers {
-  height: 30px;
+  height: $publishersHeight;
 }
 
 .authors {
-  padding: 0;
+  padding: $authorsPadding;
   display: inline;
 }
 

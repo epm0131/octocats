@@ -1,17 +1,17 @@
 header {
-  margin-top: 6px;
-  height: 50px;
+  margin-top: $headerMarginTop;
+  height: $headerHeight;
   background-color: $shadeOfGray;
 }
 
 header h1 {
-  margin-top: 8px;
+  margin-top: $headerH1Margin;
   display: inline-block;
 }
 
 header a {
   display: block;
-  padding: 8px;
+  padding: $headerAPadding;
 }
 
 header li {
@@ -22,7 +22,7 @@ header nav {
   float: right;
 }
 
-header .inforation {
-  margin-top: 10px;
+header .information {
+  margin-top: $headerUlMarginTop;
   list-style: none;
 }
